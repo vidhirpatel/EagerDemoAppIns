@@ -1,0 +1,91 @@
+[
+	{
+	  "resources": {
+		"head": [
+		  {
+			"type": "style",
+			"src": "./themes/example-app-theme-{{ options.theme }}.css"
+		  }
+		],
+		"body": [
+		  {
+			"type": "script",
+			"src": "./example-app-with-themes.js"
+		  }
+		]
+	  },
+	  "options":{
+		"info":[
+			{
+				"type":"string",
+				"key":"app_name",
+				"value":"Google Analytics"
+			},
+			{
+				"type":"string",
+				"key": "description",
+				"value":"lorem ipsum"
+			},
+			{
+				"type":"string",
+				"key": "author",
+				"value":"Joe Doel"
+			},
+			{
+				"type":"timestamp",
+				"key": "published",
+				"value":""
+			},
+			{
+				"type":"string",
+				"key": "version",
+				"value":"1.0.0"
+			},
+			{
+				"type":"string",
+				"key": "size",
+				"value":"3.5KB"
+			},
+			{
+				"type":"string",
+				"key": "language",
+				"value":"English"
+			},
+			{
+				"type":"string",
+				"key": "category",
+				"value":"Business,Google"
+			}
+		],
+		"settings":[
+		    {
+				"key": "firstName",
+				"type": "text",
+				"label": "First Name",
+				"placeholder": "Jane"
+			},
+			{
+				"key": "lastName",
+				"type": "text",
+				"label": "Last Name",
+				"placeholder": "Doe"
+			}
+		],
+		"images": [
+		  {
+			"type": "logo",
+			"src": "images/logo.jpg"
+		  },
+		  {
+			"type": "main",
+			"src": "images/main.jpg"
+		  },
+		  {
+			"type": "thumb",
+			"src": "images/thumb.jpg"
+		  }
+		]
+			
+		}
+	}
+]
